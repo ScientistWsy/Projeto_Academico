@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="234" max="-2" attributes="0"/>
+                  <Component id="lbl_titulo" min="-2" pref="174" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="btn_results" min="-2" pref="230" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="btn_selectLevel" min="-2" pref="229" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lbl_text" min="-2" pref="556" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="47" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Component id="lbl_titulo" min="-2" pref="38" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lbl_text" min="-2" pref="336" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btn_selectLevel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btn_results" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="46" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbl_titulo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="16" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Orienta&#xe7;&#xf5;es Iniciais"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_text">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;h2 style=&quot;text-align: center;&quot;&gt;N&#xed;vel I&lt;/h2&gt; &#xa;&lt;p style=&quot;text-align: center;&quot;&gt; Este n&#xed;vel destina-se a iniciantes e cont&#xe9;m quest&#xf5;es de matem&#xe1;tica b&#xe1;sica, como adi&#xe7;&#xe3;o e subtra&#xe7;&#xe3;o simples. As quest&#xf5;es podem envolver n&#xfa;meros pequenos e opera&#xe7;&#xf5;es diretas.&lt;/p&gt;  &#xa;&lt;h2 style=&quot;text-align: center;&quot;&gt;N&#xed;vel II&lt;/h2&gt; &#xa;&lt;p style=&quot;text-align: center;&quot;&gt;Este n&#xed;vel oferece quest&#xf5;es com um grau um pouco maior de dificuldade. Pode incluir adi&#xe7;&#xe3;o e subtra&#xe7;&#xe3;o de n&#xfa;meros maiores, al&#xe9;m de introduzir quest&#xf5;es de multiplica&#xe7;&#xe3;o e divis&#xe3;o simples.&lt;/p&gt;&#xa;&lt;h2 style=&quot;text-align: center;&quot;&gt;N&#xed;vel III&lt;/h2&gt; &#xa;&lt;p style=&quot;text-align: center;&quot;&gt;Neste n&#xed;vel, as quest&#xf5;es se tornam mais complexas. Elas podem incluir n&#xfa;meros maiores, opera&#xe7;&#xf5;es com fra&#xe7;&#xf5;es e mais varia&#xe7;&#xf5;es de quest&#xf5;es de multiplica&#xe7;&#xe3;o e divis&#xe3;o. &lt;/p&gt;  &#xa;&lt;h2 style=&quot;text-align: center;&quot;&gt;N&#xed;vel IV&lt;/h2&gt; &#xa;&lt;p style=&quot;text-align: center;&quot;&gt;O n&#xed;vel mais alto de dificuldade, projetado para desafiar at&#xe9; mesmo os alunos mais avan&#xe7;ados. As quest&#xf5;es podem envolver opera&#xe7;&#xf5;es matem&#xe1;ticas complexas, como multiplica&#xe7;&#xe3;o e divis&#xe3;o de n&#xfa;meros com casas decimais, fra&#xe7;&#xf5;es e problemas matem&#xe1;ticos mais elaborados.&lt;/p&gt;&#xa;&lt;/html&gt;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_selectLevel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Selecionar o N&#xed;vel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_selectLevelActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_results">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Resultados Anteriores"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_resultsActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
